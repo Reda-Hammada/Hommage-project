@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,600&display=swap');
+
+body {
+
+    background-color: whitesmoke;
+}
+
+
+#Brendanhd {
+
+    color: #ff0000;
+    font-family:  'Source Sans Pro', sans-serif; 
+    margin-top: 80px;
+    margin-left: 100px;
+}
+
+#Brendanpic {
+
+    width: 900px;
+    height: 500px;
+    border-radius:10px ;
+    -webkit-border-radius:10px ;
+    -moz-border-radius:10px ;
+    -ms-border-radius:10px ;
+    -o-border-radius:10px ;
+    float: right;
+    padding-left: 30px; 
+}
+
+#Brendanbio {
+
+    font-family: 'Source Sans Pro', sans-serif; 
+    width: 600px;
+    padding-left: 100px;
+    padding-bottom: 600px;
+}
+
