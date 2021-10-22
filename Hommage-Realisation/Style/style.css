@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+:root {
+
+    --universal-font: 'Roboto', sans-serif; /* store variables to avoid repeatitive code */
+}
+
+body {
+
+    background-color: #f5f5f5; /* it changes the background color */
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    
+    
+}
+
+.navcontainer {
+
+    display: flex; /* it makes the the nav flexible */
+    width: 100%;
+    justify-content: space-evenly; /* it add space between and around the elemnts */
+    background-color: #fff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 60px;
+
+}
+
+
+
+#Logo {
+
+
+    font-family: var(--universal-font);
+    padding-top: 20px;
+    color: #ff0000;  
+    cursor: pointer;
+}
+
+
+
+
+
+#brendanpicture {
+
+    float: right;
+    margin: 50px 110px;
+    border-radius: 20px ;
+    -webkit-border-radius: 200px ;
+    -moz-border-radius: 20px ;
+    -ms-border-radius: 20px ;
+    -o-border-radius: 20px ;
+    height: 400px;
+}
+
+#brendanpicture:hover{
+
+    transform: scale(0.9) translate(1px);
+    -webkit-transform: scale(0.9) translate(1px);
+    -moz-transform: scale(0.9) translate(1px);
+    -ms-transform: scale(0.9) translate(1px);
+    -o-transform: scale(0.9) translate(1px);
+}
+.introcontainer {
+
+    position: relative;
+    top: 190px;
+    left: 100px;
+    font-family: var(--universal-font);
+    
+}
+
+#Eichheading {
+
+    color: #ff0000;
+    font-size: 40px;
+}
+
+#Eichtitle {
+
+    margin-top: 10px;
+    font-size: 30px;
+
+}
+
+
+.Eichbio {
+    margin-top: 540px;
+    margin-left: 100px;
+    font-family: var(--universal-font);
+    width: 90%;
+
+    
+
+}
+
+#bioheading{
+
+    color: #ff0000;
+    padding-bottom:30px;
+    font-size: 40px;
+
+}
+
+#bio {
+
+    margin-bottom: 500px;
+    font-size: 20px;
+}
+
+.netspacebio {
+    font-family: var(--universal-font);
+    position: relative;
+    left: 100px;
+    bottom: 400px;
+    width: 90%;
+
+
+    
+}
+
+.netspacebio h3 {
+
+    color: #ff0000;
+    font-size: 30px;
+    padding-bottom: 30px;
+
+
+}
+
+.netspacebio p {
+
+    font-size: 20px;
+}
+
+.mozillabio {
+
+    font-family: var(--universal-font);
+    position: relative;
+    left: 100px;
+    bottom: 400px;
+    width: 90%;
+
+}
+
+.mozillabio  h3{
+
+    color: #ff0000;
+    font-size: 30px;
+    padding-bottom: 30px;
+    margin-top: 50px;
+
+
+}
+
+.mozillabio p {
+
+    font-size: 20px;
+}
